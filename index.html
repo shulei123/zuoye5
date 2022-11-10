@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+      
+        .gd1{
+            width: 70px;
+            height: 70px;
+            background-color: rgb(0,136,204);
+            border-radius: 0px;
+            transition: width 2s, height 2s, transform 2s; 
+            margin: 1%;
+            text-align: center;
+            line-height: 70px;
+            position: relative;
+             display: block;
+              z-index: 1;
+             overflow: hidden;
+        }
+		.gd2{
+		    width: 70px;
+		    height: 70px;
+		    background-color: rgb(231,76,60);
+		    border-radius: 0px;
+		    transition: width 2s, height 2s, transform 2s; 
+		    margin: 1%;
+		    text-align: center;
+		    line-height: 70px;
+		    position: relative;
+		     display: block;
+		      z-index: 1;
+		     overflow: hidden;
+		}
+		
+        .gd1:hover{
+            width: 295px;
+        }
+		.gd2:hover{
+		    width: 295px;}
+		
+         a{
+			color: aliceblue;
+            font-size: 25px;
+             z-index: 2;
+            position: absolute;
+            left: 30px;
+            top: 0px;	
+        }
+		
+        .gd1-d{
+            width: 70px;
+            height: 70px;
+            background: rgb(0,136,204);
+            position: absolute;
+            border-radius: 10px;
+            right: 0px;
+            top: 0px;
+            z-index: 3;
+        }
+		.gd2-d{
+		    width: 70px;
+		    height: 70px;
+		    background: rgb(231,76,60);
+		    position: absolute;
+		    border-radius: 10px;
+		    right: 0px;
+		    top: 0px;
+		    z-index: 3;
+		}
+			
+		.img1{
+			color: aliceblue;
+			position: relative;
+	 		left: 0%;
+			top: 0%;
+			width: 70px;
+			height: 70px;
+		}
+		.img2{
+			position: relative;
+			left: 0%;
+			top: 0%;
+			width: 70px;
+			height: 70px;
+		}
+    </style>
+</head>
+<body>
+
+    <div class="gd1">
+        <a>访客 vistor</a>
+		<div class="gd1-d">
+			<img class="img1" src="img/访问.png">
+		</div>
+    </div>
+	
+    <div class="gd2">
+        <a>学生 student</a>
+		<div class="gd2-d">
+			<img class="img2" src="img/学.png">
+		</div>
+    </div>
+    
+</body>
+</html>
